@@ -1,0 +1,26 @@
+.dashboard {
+    padding: 20px;
+}
+
+.create-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.filters button {
+    margin-right: 10px;
+}
+
+.activities, .analytics {
+    margin-top: 20px;
+}

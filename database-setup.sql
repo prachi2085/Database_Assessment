@@ -1,0 +1,9 @@
+create DATABASE assessment_db;
+USE assessment_db;
+CREATE TABLE Assessments (
+id INT AUTO_INCREMENT PRIMARY KEY,
+title VARCHAR(255) NOT NULL,
+type VARCHAR(50) NOT NULL,
+user_id INT NOT NULL,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
